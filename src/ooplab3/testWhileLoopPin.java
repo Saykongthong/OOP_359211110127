@@ -20,7 +20,6 @@ public class testWhileLoopPin {
                 count++;
                 if(count ==3) {
                     System.out.println("Locked.");
-                    System.out.println("Locked.");1
                     break;
                 }
             }
