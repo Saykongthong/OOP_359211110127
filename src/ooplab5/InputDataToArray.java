@@ -13,6 +13,7 @@ public class InputDataToArray {
         showDataEnchance(number);
     }//main
 
+
     private static void showDataEnchance(int[] number) {
         System.out.println("Data in Array: ");
         for (int val:number)
