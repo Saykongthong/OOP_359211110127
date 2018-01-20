@@ -1,4 +1,4 @@
-package oop_lab.s359211110127.rmutsv.com;
+package oop_lab1;
 
 public class myFirstJAVA {
     public static void main(String[] args) {

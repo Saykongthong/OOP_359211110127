@@ -14,6 +14,5 @@ public class myStrBuff {
       System.out.println(myBuf.length());
       System.out.println(myBuf.capacity());//นับจำนวนสูงสุดของพื้นที่
       System.out.println(myBuf.reverse());//การสลับตัวอักษรถอยหลัง
-
     }//main
 }//class
