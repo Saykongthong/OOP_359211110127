@@ -11,9 +11,9 @@ public class myPerson {
         System.out.println(person.toString());
 
         //edit data of object
-        person.getJob().setSalary(15000);
+        person.getJob().setSalary(50000);
         System.out.println(person.getJob().getPosition());
-        //System.out.println(person.getJob().getSalary());
+        System.out.println(person.getJob().getSalary());
     }
     }
 

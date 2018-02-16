@@ -4,8 +4,9 @@ public class Job {
     private String position;
     private int salary;
 
-    public String getPosition() {
-        return position;
+    public Job(String position, int salary) {
+        this.position = position;
+        this.salary = salary;
     }
 
     @Override
@@ -16,21 +17,19 @@ public class Job {
                 '}';
     }
 
+    public String getPosition() {
+        return position;
+    }
+
     public void setPosition(String position) {
         this.position = position;
     }
 
-    public int getSalary(int i) {
+    public int getSalary() {
         return salary;
     }
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public Job(String position, int salary) {
-        this.position = position;
-        this.salary = salary;
-
     }
 }

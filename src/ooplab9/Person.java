@@ -6,7 +6,7 @@ public class Person {
     private Address address;
     private Job job;
 
-    public Person(String name, int age, Address nakhorsithammarat, Job bitoey) {
+    public Person(String name, int age, Address address, Job job) {
         this.name = name;
         this.age = age;
         this.address = address;
